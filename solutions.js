@@ -62,3 +62,34 @@ let search = document.querySelector(".searchinput___19uW0");
 search.addEventListener("mouseover", function() {
     document.querySelector(".searchinput___19uW0").style.backgroundColor = "green";
 });
+
+//or
+
+let form = document.querySelector(".searchinput___zXLAR");
+
+form.addEventListener("mouseenter", red);
+form.addEventListener("mouseout", white);
+
+function red() {
+    form.style.background = "red";
+    form.style.transition = "all 0.2s ease-in-out";
+}
+
+function white() {
+    form.style.background = "white";
+}
+
+
+/* 8. Webiste Name: MDN Web Docs
+Topics: Form, Value, Submit
+Tasks: To Search a topic in the MDN Search bar.
+       First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
+ */
+function search(searchText) {
+    let input = document.querySelector("#top-nav-search-input");
+    input.value = searchText;
+    let form = document.querySelector("#top-nav-search-form");
+    form.submit();
+}
+
+search("css");
