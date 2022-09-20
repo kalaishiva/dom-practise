@@ -116,3 +116,11 @@ Tasks: Target the button and change background colour on mouseover
  */
 let button = document.querySelector(".login-btn-text");
 button.addEventListener("mouseover", function() { document.querySelector(".login-btn-text").style.backgroundColor = "Red" });
+
+
+/* 11. Webiste Name: realme
+Topics: querySelector,style,background-image
+Tasks: change the realme logo to ineuron logo */
+
+let logoreal = document.querySelector(".icon-logo");
+logoreal.style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')";
