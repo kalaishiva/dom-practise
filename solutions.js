@@ -169,3 +169,22 @@ buybtn.style.backgroundColor = "white";
 
 let date = new Date();
 buybtn.innerHTML = date;
+
+/* 18. Webiste Name: Philips
+Topics: querySelector,style,backgroundcolor
+Tasks: change the background colour blue to orange */
+
+document.querySelector(".p-footer").style.backgroundColor = "orange";
+
+/* 19. Webiste Name: Canon
+Topics: querySelector, src
+Tasks: extract the canon logo */
+
+let logoSrc = document.querySelector(".logo").src;
+
+/* 20. Webiste Name: Oppo
+Topics: querySelector, style, color
+Tasks: Change the description colour black to orange */
+
+let changeColor = document.querySelector(".desc");
+changeColor.style.color = "orange";
