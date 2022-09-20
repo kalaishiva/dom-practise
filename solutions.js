@@ -80,7 +80,7 @@ function white() {
 }
 
 
-/* 8. Webiste Name: MDN Web Docs
+/* 7. Webiste Name: MDN Web Docs
 Topics: Form, Value, Submit
 Tasks: To Search a topic in the MDN Search bar.
        First add a text to search in the search bar and then hit the submit search button to search the docs using DOM
@@ -93,3 +93,26 @@ function search(searchText) {
 }
 
 search("css");
+
+/* 8.Webiste Name: Google
+Topics:  Remove Elements
+Tasks: Remove alternate languages from the home page languages listed */
+
+document.querySelector("#SIvCob").remove();
+
+/* 9. Webiste Name: Code Wars
+Topics: Change Font Family, Color of Text.
+Tasks: Change the font family of the text to monospace and text color to the logo’s background color.
+
+ */
+let heading = document.querySelector(".display-heading-1");
+heading.style.fontFamily = "Cursive";
+heading.style.color = "Red";
+
+
+/* 10. Webiste Name: Freecodecamp
+Topics: querySelector, mouseover, click eventListener,  callback function, style,
+Tasks: Target the button and change background colour on mouseover
+ */
+let button = document.querySelector(".login-btn-text");
+button.addEventListener("mouseover", function() { document.querySelector(".login-btn-text").style.backgroundColor = "Red" });
