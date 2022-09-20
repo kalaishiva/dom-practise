@@ -124,3 +124,10 @@ Tasks: change the realme logo to ineuron logo */
 
 let logoreal = document.querySelector(".icon-logo");
 logoreal.style.backgroundImage = "url('https://ineuron.ai/images/ineuron-logo.png')";
+
+/* 12. Webiste Name: Github
+Topics: querySelector, style, background - Color
+Tasks: change the background colour of the button to blue. */
+
+let repobtn = document.querySelector(".btn-primary");
+repobtn.style.backgroundColor = "blue";
