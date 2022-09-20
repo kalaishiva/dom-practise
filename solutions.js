@@ -131,3 +131,41 @@ Tasks: change the background colour of the button to blue. */
 
 let repobtn = document.querySelector(".btn-primary");
 repobtn.style.backgroundColor = "blue";
+
+/* 13. Webiste Name: Hackerrank
+Topics: querySelector,innerHtml
+Tasks: Target the top description and change “Matching developers with great companies” to ‘JSBOOTCAMP“.
+ */
+document.querySelector(".fl-heading-text").innerHTML = "JSBOOTCAMP";
+
+/* 14. Webiste Name: Asus
+Topics: querySelector,style,font-size
+Tasks: change the fontsize of “Hot Deals” to 80px
+ */
+let title = document.querySelector(".HotDealsAll__Heading__2fIbe");
+title.style.fontSize = "80px";
+
+/* 15.Webiste Name: Dell
+Topics: querySelector,style.textAlign
+Tasks: Convert the text “G15 Gaming Laptop” from left to right */
+/*  */
+
+
+/* 16. Webiste Name: Vercel
+Topics: querySelector,innerHTMl
+Tasks: change the heading “Start with the developer” to “Start with Scratch”
+ */
+let vercelHeadin = document.querySelector(".section-title_title__VEDfK");
+vercelHeadin.innerHTML = "Start with Scratch";
+/* 
+17. Webiste Name: Sony
+Topics: querySelector, innerHTMl
+Tasks: change the button text To current Date. */
+
+let buybtn = document.querySelector(".buy-button");
+buybtn.style.color = "black";
+buybtn.style.backgroundColor = "white";
+
+
+let date = new Date();
+buybtn.innerHTML = date;
